@@ -1,0 +1,23 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: rgba(124, 154, 167);
+}
+table .list {
+    text-align: center;
+    width: 100%;
+} 
+td{
+    border: 1px solid rgba(204,200,200);
+    text-align: left;
+    padding: 8px 15px;
+}
+tr:nth-child(even), table .list thread > tr{
+    background-color: rgba(204, 200, 200);
+}
